@@ -1,0 +1,52 @@
+{
+  "id": "ecommerce-catalog-vibes",
+  "category": "canonical",
+  "brief": "Pinterest-energy browsing, gallery scanning, comparing options. Grid of products, cards with images and price, friendly consumer voice.",
+  "expected": {
+    "canonical": "E-Commerce Catalog",
+    "axes": {
+      "layout": "LAYOUT-9",
+      "typography": [
+        "TYPE-5",
+        "TYPE-1"
+      ],
+      "color": "COLOR-8a",
+      "component": "COMP-2",
+      "motion": "MOTION-3",
+      "imagery": "IMG-4",
+      "density": [
+        "DEN-3",
+        "DEN-4"
+      ],
+      "voice": [
+        "VOICE-3",
+        "VOICE-9"
+      ],
+      "reading_pattern": "RP-5"
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [
+      "Pinterest-energy",
+      "gallery scanning",
+      "comparing options",
+      "friendly consumer voice"
+    ],
+    "vernacular": [
+      "grid of products",
+      "cards"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "e-commerce",
+      "consumer"
+    ],
+    "functional_context": [
+      "browsing"
+    ],
+    "audience_signals": []
+  }
+}

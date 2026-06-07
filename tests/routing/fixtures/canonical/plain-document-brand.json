@@ -1,0 +1,48 @@
+{
+  "id": "plain-document-brand",
+  "category": "canonical",
+  "brief": "Build me a plain text site like Paul Graham's or Gwern's. Just essays. No imagery, single typeface, black on white, generous reading column.",
+  "expected": {
+    "canonical": "Plain Document (Paul Graham Tier)",
+    "axes": {
+      "layout": "LAYOUT-8",
+      "typography": "TYPE-2",
+      "color": "COLOR-3",
+      "component": "COMP-1",
+      "motion": "MOTION-1",
+      "density": "DEN-1",
+      "voice": [
+        "VOICE-2",
+        "VOICE-4"
+      ],
+      "reading_pattern": "RP-3"
+    },
+    "min_confidence": 0.85
+  },
+  "stub_signals": {
+    "brand_exemplars": [
+      "Paul Graham",
+      "Gwern"
+    ],
+    "vibes": [
+      "plain text site"
+    ],
+    "vernacular": [
+      "single typeface",
+      "black on white",
+      "generous reading column"
+    ],
+    "anti_vibes": [
+      "no imagery"
+    ],
+    "compositional_intent": [],
+    "domain": [
+      "personal site",
+      "writer"
+    ],
+    "functional_context": [
+      "essays"
+    ],
+    "audience_signals": []
+  }
+}

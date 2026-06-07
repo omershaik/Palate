@@ -1,0 +1,19 @@
+{
+  "id": "novel-cause-scrollytelling",
+  "category": "novel-but-coherent",
+  "brief": "Climate journalism / advocacy site — documentary photography, quiet-authority voice, two-color monochrome — but with NYT-style scrollytelling-narrative motion to walk readers through the data story.",
+  "expected": {
+    "is_novel": true,
+    "min_confidence": 0.5
+  },
+  "stub_signals": {
+    "brand_exemplars": ["NYT"],
+    "vibes": ["climate journalism", "advocacy", "documentary photography", "quiet-authority voice"],
+    "vernacular": ["two-color monochrome", "scrollytelling-narrative motion"],
+    "anti_vibes": [],
+    "compositional_intent": ["walk readers through the data story"],
+    "domain": ["journalism", "advocacy"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

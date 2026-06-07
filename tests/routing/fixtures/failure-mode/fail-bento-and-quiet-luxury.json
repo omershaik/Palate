@@ -1,0 +1,22 @@
+{
+  "id": "fail-bento-and-quiet-luxury",
+  "category": "failure-mode",
+  "_v01_status": "DEFERRED to v0.2 signal-level detection. Phase 2.1a Task 2 attempted score-distribution-based contradiction detection but found the design insufficient: Aman's brand-name extraction dominates Stage 1 routing all 9 axes to canonical-1 (Luxury Hospitality) at score 1.0; top-2 ends up canonical-12 (adjacent), not canonical-3 (the contradictory canonical the brief invokes via 'bento-modern AI startup'). The contradiction signal exists in the brief but doesn't survive to the canonical-score distribution. v0.2 fix: per-vibe canonical attribution at the signal layer, before Stage 1 collapses the multi-canonical signal. See docs/phase-2.1-deferred.md Category E and docs/architectural-patterns.md 'Contradiction detection should operate on signal-extraction outputs'.",
+  "brief": "I want it to feel both bento-modern AI startup and quiet-luxury Aman hospitality at the same time. Both registers fully present.",
+  "expected": {
+    "should_fail": true,
+    "expected_warnings": [
+      { "severity": "conflict", "code": "contradictory_canonicals" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Aman"],
+    "vibes": ["bento-modern AI startup", "quiet-luxury hospitality"],
+    "vernacular": [],
+    "anti_vibes": [],
+    "compositional_intent": ["both registers fully present"],
+    "domain": ["AI", "hospitality"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

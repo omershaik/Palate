@@ -1,0 +1,20 @@
+{
+  "id": "broken-ai-imagery-luxury-voice",
+  "category": "broken",
+  "brief": "Quiet authority hospitality voice — Aman-coded, restrained, expensive — but use AI-generated imagery for all hero shots and product photos.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Aman"],
+    "vibes": ["quiet authority", "restrained", "expensive"],
+    "vernacular": ["AI-generated imagery"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": ["hospitality"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

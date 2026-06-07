@@ -1,0 +1,50 @@
+{
+  "id": "editorial-brand-hybrid-intent",
+  "category": "canonical",
+  "brief": "I want hospitality warmth but with editorial intelligence — neither pure quiet luxury nor pure magazine. Members club brand site with longform features.",
+  "expected": {
+    "canonical": "Premium Editorial-Brand Hybrid (Soho House Tier)",
+    "axes": {
+      "layout": "LAYOUT-2",
+      "typography": "TYPE-1",
+      "color": [
+        "COLOR-2",
+        "COLOR-1"
+      ],
+      "component": [
+        "COMP-5",
+        "COMP-1"
+      ],
+      "motion": "MOTION-2",
+      "imagery": "IMG-1",
+      "density": "DEN-1",
+      "voice": [
+        "VOICE-2",
+        "VOICE-1"
+      ],
+      "reading_pattern": "RP-1"
+    },
+    "min_confidence": 0.6
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [],
+    "vernacular": [],
+    "anti_vibes": [
+      "not pure quiet luxury",
+      "not pure magazine"
+    ],
+    "compositional_intent": [
+      "hospitality warmth but with editorial intelligence",
+      "members club brand site with longform features"
+    ],
+    "domain": [
+      "hospitality",
+      "members club"
+    ],
+    "functional_context": [
+      "brand site"
+    ],
+    "audience_signals": []
+  }
+}

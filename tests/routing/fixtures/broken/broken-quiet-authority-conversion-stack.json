@@ -1,0 +1,20 @@
+{
+  "id": "broken-quiet-authority-conversion-stack",
+  "category": "broken",
+  "brief": "Aman-style quiet-authority hospitality voice that refuses to sell, but laid out as a conversion-stack — hero with dual CTAs, three-column features, social proof carousel, urgency banners.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Aman"],
+    "vibes": ["quiet-authority", "refuses to sell"],
+    "vernacular": ["conversion-stack", "hero with dual CTAs", "three-column features", "social proof carousel", "urgency banners"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": ["hospitality"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

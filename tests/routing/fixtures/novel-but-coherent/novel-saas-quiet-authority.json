@@ -1,0 +1,19 @@
+{
+  "id": "novel-saas-quiet-authority",
+  "category": "novel-but-coherent",
+  "brief": "B2B enterprise SaaS marketing — geometric-modernist sans, single-accent palette — but with quiet-authority voice instead of conversion-punchy. Premium SaaS that refuses to oversell.",
+  "expected": {
+    "is_novel": true,
+    "min_confidence": 0.5
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["B2B enterprise SaaS", "premium SaaS", "quiet-authority voice"],
+    "vernacular": ["geometric-modernist sans", "single-accent palette"],
+    "anti_vibes": ["instead of conversion-punchy", "refuses to oversell"],
+    "compositional_intent": [],
+    "domain": ["B2B SaaS", "enterprise"],
+    "functional_context": ["marketing"],
+    "audience_signals": []
+  }
+}

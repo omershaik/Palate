@@ -1,0 +1,19 @@
+{
+  "id": "novel-editorial-considered-hard-bordered",
+  "category": "novel-but-coherent",
+  "brief": "Awwwards-tier publication site — editorial-considered voice, magazine-style typography — but with neo-brutalist hard-bordered components in saturated primaries. Editorial intelligence in a brutalist visual frame.",
+  "expected": {
+    "is_novel": true,
+    "min_confidence": 0.5
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Awwwards"],
+    "vibes": ["editorial-considered voice", "magazine-style typography", "brutalist visual frame"],
+    "vernacular": ["neo-brutalist hard-bordered components", "saturated primaries"],
+    "anti_vibes": [],
+    "compositional_intent": ["editorial intelligence in a brutalist visual frame"],
+    "domain": ["publishing"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

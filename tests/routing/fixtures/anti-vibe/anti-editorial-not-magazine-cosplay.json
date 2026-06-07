@@ -1,0 +1,18 @@
+{
+  "id": "anti-editorial-not-magazine-cosplay",
+  "category": "anti-vibe",
+  "brief": "Editorial publication site — long-form essays, considered — but NOT magazine cosplay (no random drop caps, no decorative italics-as-flourish), NOT academic-cold either. Real publishing voice.",
+  "expected": {
+    "must_avoid": []
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["editorial publication", "long-form essays", "considered", "real publishing voice"],
+    "vernacular": [],
+    "anti_vibes": ["not magazine cosplay", "no random drop caps", "no decorative italics-as-flourish", "not academic-cold"],
+    "compositional_intent": [],
+    "domain": ["publishing"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

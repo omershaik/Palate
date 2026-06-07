@@ -1,0 +1,19 @@
+{
+  "id": "novel-luxury-hotel-scrollytelling",
+  "category": "novel-but-coherent",
+  "brief": "Aman-tier luxury hotel brand — quiet-authority voice, editorial photography, restrained palette — but with scrollytelling-narrative motion to walk visitors through the property's history and architecture.",
+  "expected": {
+    "is_novel": true,
+    "min_confidence": 0.5
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Aman"],
+    "vibes": ["luxury hotel", "quiet-authority voice", "editorial photography", "restrained palette"],
+    "vernacular": ["scrollytelling-narrative motion"],
+    "anti_vibes": [],
+    "compositional_intent": ["walk visitors through the property's history and architecture"],
+    "domain": ["hospitality"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

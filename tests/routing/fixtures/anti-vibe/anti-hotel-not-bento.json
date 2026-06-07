@@ -1,0 +1,19 @@
+{
+  "id": "anti-hotel-not-bento",
+  "category": "anti-vibe",
+  "_methodology_note": "Converted from anti-vibe-driven test to a positive-routing test in Phase 2.1a Task 1 audit. Original anti_vibes ('not a bento grid', 'not a feature-grid', 'not pushy with CTAs', 'not a tech startup') were search-audited and surfaced as fixture-coined: anti-bento-rejection-vocabulary and anti-conversion-stack-rejection-vocabulary aren't attested as design-community phrasing as of May 2026. The fixture's purpose now is to verify that the brief's hospitality positive signals route to Luxury Hospitality canonical without needing anti-vibes to do the work. See docs/altname-coverage-notes.md negative-result entries.",
+  "brief": "Boutique hotel website — a place to stay, not a tech product. Hospitality first.",
+  "expected": {
+    "must_avoid": []
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["boutique hotel", "hospitality first"],
+    "vernacular": [],
+    "anti_vibes": [],
+    "compositional_intent": ["a place to stay, not a tech product"],
+    "domain": ["hospitality"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "developer-tool-intent",
+  "category": "canonical",
+  "brief": "I'm building for engineers and they will sniff out fakery. I want technical credibility through vocabulary and specificity. Marketing site for an infra product.",
+  "expected": {
+    "canonical": "Developer Tool Marketing",
+    "axes": {
+      "layout": [
+        "LAYOUT-3a",
+        "LAYOUT-4a"
+      ],
+      "typography": [
+        "TYPE-4",
+        "TYPE-5"
+      ],
+      "color": "COLOR-4",
+      "component": "COMP-8b",
+      "motion": "MOTION-3",
+      "imagery": [
+        "IMG-5",
+        "IMG-8"
+      ],
+      "density": "DEN-4",
+      "voice": "VOICE-9",
+      "reading_pattern": [
+        "RP-1",
+        "RP-2"
+      ]
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [],
+    "vernacular": [],
+    "anti_vibes": [
+      "fakery"
+    ],
+    "compositional_intent": [
+      "building for engineers",
+      "technical credibility through vocabulary and specificity"
+    ],
+    "domain": [
+      "developer tools",
+      "infrastructure"
+    ],
+    "functional_context": [
+      "marketing site"
+    ],
+    "audience_signals": [
+      "engineers",
+      "sophisticated audience"
+    ]
+  }
+}

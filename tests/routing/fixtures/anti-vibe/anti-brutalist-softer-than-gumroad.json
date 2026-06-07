@@ -1,0 +1,19 @@
+{
+  "id": "anti-brutalist-softer-than-gumroad",
+  "category": "anti-vibe",
+  "_methodology_note": "Deliberately single-phrase anti-vibe. 'less aggressive' is the only attested anti-vibe for COLOR-5 rejection per May 2026 design-community vocabulary (NN/G + design publications critique neo-brutalist saturation as 'aggressive' / 'overwhelming'). Other plausible-sounding rejections ('softer than Gumroad', 'less primary-saturated', 'not anti-design', 'not Stripe-polished') were search-audited and surfaced as fixture-coined rather than user-attested.",
+  "brief": "Indie SaaS that signals neo-brutalist sensibility, but less aggressive than typical Gumroad. More considered.",
+  "expected": {
+    "must_avoid": ["COLOR-5"]
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Gumroad"],
+    "vibes": ["indie SaaS", "neo-brutalist sensibility"],
+    "vernacular": [],
+    "anti_vibes": ["less aggressive"],
+    "compositional_intent": [],
+    "domain": ["indie SaaS"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

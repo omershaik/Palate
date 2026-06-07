@@ -1,0 +1,50 @@
+{
+  "id": "editorial-brand-hybrid-vibes",
+  "category": "canonical",
+  "brief": "Members-club energy, editorial intelligence with hospitality warmth. Multi-column editorial spreads, premium two-hand type, considered editorial voice with weight.",
+  "expected": {
+    "canonical": "Premium Editorial-Brand Hybrid (Soho House Tier)",
+    "axes": {
+      "layout": "LAYOUT-2",
+      "typography": "TYPE-1",
+      "color": [
+        "COLOR-2",
+        "COLOR-1"
+      ],
+      "component": [
+        "COMP-5",
+        "COMP-1"
+      ],
+      "motion": "MOTION-2",
+      "imagery": "IMG-1",
+      "density": "DEN-1",
+      "voice": [
+        "VOICE-2",
+        "VOICE-1"
+      ],
+      "reading_pattern": "RP-1"
+    },
+    "min_confidence": 0.65
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [
+      "members-club energy",
+      "editorial intelligence",
+      "hospitality warmth",
+      "considered editorial voice"
+    ],
+    "vernacular": [
+      "multi-column editorial spreads",
+      "two-hand type"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "hospitality",
+      "editorial"
+    ],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

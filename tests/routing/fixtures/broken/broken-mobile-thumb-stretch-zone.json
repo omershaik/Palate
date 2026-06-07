@@ -1,0 +1,20 @@
+{
+  "id": "broken-mobile-thumb-stretch-zone",
+  "category": "broken",
+  "brief": "Build a mobile-first one-handed-use site for our consumer app — explicit mobile thumb-zone reading pattern — but with all primary actions in the top stretch zone of the screen.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["mobile-first", "one-handed-use"],
+    "vernacular": ["mobile thumb-zone reading pattern", "primary actions in the top stretch zone"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": ["consumer app"],
+    "functional_context": ["mobile"],
+    "audience_signals": []
+  }
+}

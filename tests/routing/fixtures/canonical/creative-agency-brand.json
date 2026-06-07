@@ -1,0 +1,60 @@
+{
+  "id": "creative-agency-brand",
+  "category": "canonical",
+  "brief": "Build me an Awwwards-style portfolio site like Locomotive or KOTA. Broken grid, kinetic typography, custom illustration, art-directed eye paths.",
+  "expected": {
+    "canonical": "Awwwards-Tier Creative Agency",
+    "axes": {
+      "layout": "LAYOUT-6",
+      "typography": "TYPE-6",
+      "color": [
+        "COLOR-7",
+        "COLOR-5",
+        "COLOR-3"
+      ],
+      "component": [
+        "COMP-7",
+        "COMP-5"
+      ],
+      "motion": "MOTION-7",
+      "imagery": [
+        "IMG-6",
+        "IMG-5",
+        "IMG-3"
+      ],
+      "density": "DEN-2",
+      "voice": [
+        "VOICE-2",
+        "VOICE-8"
+      ],
+      "reading_pattern": "RP-5"
+    },
+    "min_confidence": 0.85
+  },
+  "stub_signals": {
+    "brand_exemplars": [
+      "Awwwards",
+      "Locomotive",
+      "KOTA"
+    ],
+    "vibes": [
+      "portfolio site"
+    ],
+    "vernacular": [
+      "broken grid",
+      "kinetic typography",
+      "custom illustration",
+      "art-directed"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "creative agency",
+      "design"
+    ],
+    "functional_context": [
+      "portfolio"
+    ],
+    "audience_signals": []
+  }
+}

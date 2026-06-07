@@ -1,0 +1,20 @@
+{
+  "id": "broken-casual-playful-hyper-dense",
+  "category": "broken",
+  "brief": "Glossier-style casual-playful copy — light, conversational, friendly — but with hyper-dense Bloomberg-Terminal information density. Every pixel doing work.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Glossier", "Bloomberg Terminal"],
+    "vibes": ["casual-playful", "light", "conversational", "friendly"],
+    "vernacular": ["hyper-dense"],
+    "anti_vibes": [],
+    "compositional_intent": ["every pixel doing work"],
+    "domain": [],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

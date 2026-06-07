@@ -1,0 +1,52 @@
+{
+  "id": "saas-marketing-brand",
+  "category": "canonical",
+  "brief": "Build me a typical YC-style SaaS landing page like Stripe or any Webflow template. Hero, three-column features, testimonials, pricing CTA.",
+  "expected": {
+    "canonical": "Standard SaaS Marketing",
+    "axes": {
+      "layout": "LAYOUT-4a",
+      "typography": "TYPE-5",
+      "color": "COLOR-8a",
+      "component": "COMP-2",
+      "motion": "MOTION-3",
+      "imagery": [
+        "IMG-7",
+        "IMG-6"
+      ],
+      "density": "DEN-3",
+      "voice": [
+        "VOICE-7",
+        "VOICE-3"
+      ],
+      "reading_pattern": "RP-2"
+    },
+    "min_confidence": 0.85
+  },
+  "stub_signals": {
+    "brand_exemplars": [
+      "typical YC startup",
+      "Stripe",
+      "Webflow template"
+    ],
+    "vibes": [
+      "SaaS landing page"
+    ],
+    "vernacular": [
+      "hero",
+      "three-column features",
+      "testimonials",
+      "pricing CTA"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "SaaS",
+      "B2B"
+    ],
+    "functional_context": [
+      "landing page"
+    ],
+    "audience_signals": []
+  }
+}

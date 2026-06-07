@@ -1,0 +1,59 @@
+{
+  "id": "creative-agency-vibes",
+  "category": "canonical",
+  "brief": "Experimental, art-directed, creator-coded. Visibly designed, not template-y. Cursor effects, scroll-triggered reveals, maximalist typography, iridescent palette.",
+  "expected": {
+    "canonical": "Awwwards-Tier Creative Agency",
+    "axes": {
+      "layout": "LAYOUT-6",
+      "typography": "TYPE-6",
+      "color": [
+        "COLOR-7",
+        "COLOR-5",
+        "COLOR-3"
+      ],
+      "component": [
+        "COMP-7",
+        "COMP-5"
+      ],
+      "motion": "MOTION-7",
+      "imagery": [
+        "IMG-6",
+        "IMG-5",
+        "IMG-3"
+      ],
+      "density": "DEN-2",
+      "voice": [
+        "VOICE-2",
+        "VOICE-8"
+      ],
+      "reading_pattern": "RP-5"
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [
+      "experimental",
+      "art-directed",
+      "creator-coded",
+      "visibly designed",
+      "maximalist typography",
+      "iridescent palette"
+    ],
+    "vernacular": [
+      "cursor effects",
+      "scroll-triggered reveals"
+    ],
+    "anti_vibes": [
+      "not template-y"
+    ],
+    "compositional_intent": [],
+    "domain": [
+      "creative agency",
+      "design"
+    ],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

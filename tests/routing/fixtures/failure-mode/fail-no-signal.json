@@ -1,0 +1,21 @@
+{
+  "id": "fail-no-signal",
+  "category": "failure-mode",
+  "brief": "Anything cool, surprise me.",
+  "expected": {
+    "should_fail": true,
+    "expected_warnings": [
+      { "severity": "conflict", "code": "brief_too_ambiguous" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["cool"],
+    "vernacular": [],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

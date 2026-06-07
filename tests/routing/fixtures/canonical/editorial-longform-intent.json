@@ -1,0 +1,52 @@
+{
+  "id": "editorial-longform-intent",
+  "category": "canonical",
+  "brief": "I'm publishing something to be read, not skimmed. I want the design to disappear into the writing. Personal essay site for a writer.",
+  "expected": {
+    "canonical": "Editorial Long-Form (Substack / Stripe Press)",
+    "axes": {
+      "layout": "LAYOUT-4c",
+      "typography": [
+        "TYPE-1",
+        "TYPE-3"
+      ],
+      "color": [
+        "COLOR-3",
+        "COLOR-1"
+      ],
+      "component": [
+        "COMP-5",
+        "COMP-1"
+      ],
+      "motion": [
+        "MOTION-1",
+        "MOTION-2"
+      ],
+      "imagery": "IMG-1",
+      "density": "DEN-1",
+      "voice": "VOICE-2",
+      "reading_pattern": "RP-3"
+    },
+    "min_confidence": 0.65
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [],
+    "vernacular": [],
+    "anti_vibes": [
+      "not skimmed"
+    ],
+    "compositional_intent": [
+      "publishing something to be read, not skimmed",
+      "design to disappear into the writing"
+    ],
+    "domain": [
+      "publishing",
+      "writer"
+    ],
+    "functional_context": [
+      "personal essay site"
+    ],
+    "audience_signals": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "novel-plain-document-mono-dark",
+  "category": "novel-but-coherent",
+  "brief": "Personal site for a technical writer in Gwern style — plain prose document layout, but with mono-discipline typography throughout and a dark-mode-dominant terminal palette.",
+  "expected": {
+    "is_novel": true,
+    "min_confidence": 0.5
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Gwern"],
+    "vibes": ["personal site", "plain prose document"],
+    "vernacular": ["mono-discipline typography", "dark-mode-dominant", "terminal palette"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": ["personal site", "technical writer"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "anti-developer-no-jargon-performance",
+  "category": "anti-vibe",
+  "brief": "Developer tool marketing — technical without being cold, no jargon performance, no \"unlock and unleash\" verb stack, no Stripe-API-coded pretentiousness. Real engineers writing for real engineers.",
+  "expected": {
+    "must_avoid": ["VOICE-7"]
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Stripe"],
+    "vibes": ["developer tool"],
+    "vernacular": [],
+    "anti_vibes": ["technical without being cold", "no jargon performance", "no \"unlock and unleash\" verb stack", "no Stripe-API-coded pretentiousness"],
+    "compositional_intent": ["real engineers writing for real engineers"],
+    "domain": ["developer tools"],
+    "functional_context": ["marketing"],
+    "audience_signals": ["engineers"]
+  }
+}

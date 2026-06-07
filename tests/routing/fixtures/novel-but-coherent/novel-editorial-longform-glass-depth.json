@@ -1,0 +1,19 @@
+{
+  "id": "novel-editorial-longform-glass-depth",
+  "category": "novel-but-coherent",
+  "brief": "Stripe Press-style editorial long-form essay, but with subtle atmospheric depth on quotations and call-out boxes — frosted-glass surfaces revealing background imagery as you scroll past key moments.",
+  "expected": {
+    "is_novel": true,
+    "min_confidence": 0.5
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Stripe Press"],
+    "vibes": ["editorial long-form essay", "subtle atmospheric depth"],
+    "vernacular": ["frosted-glass surfaces", "call-out boxes"],
+    "anti_vibes": [],
+    "compositional_intent": ["depth on quotations and call-out boxes"],
+    "domain": ["publishing"],
+    "functional_context": ["essay"],
+    "audience_signals": []
+  }
+}

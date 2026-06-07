@@ -1,0 +1,49 @@
+{
+  "id": "ecommerce-catalog-intent",
+  "category": "canonical",
+  "brief": "The user is comparing options. I have many things of the same type to show. The page is for browsing, not deciding immediately. Selling consumer jewellery online.",
+  "expected": {
+    "canonical": "E-Commerce Catalog",
+    "axes": {
+      "layout": "LAYOUT-9",
+      "typography": [
+        "TYPE-5",
+        "TYPE-1"
+      ],
+      "color": "COLOR-8a",
+      "component": "COMP-2",
+      "motion": "MOTION-3",
+      "imagery": "IMG-4",
+      "density": [
+        "DEN-3",
+        "DEN-4"
+      ],
+      "voice": [
+        "VOICE-3",
+        "VOICE-9"
+      ],
+      "reading_pattern": "RP-5"
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [],
+    "vernacular": [],
+    "anti_vibes": [],
+    "compositional_intent": [
+      "user is comparing options",
+      "many things of the same type to show",
+      "for browsing, not deciding immediately"
+    ],
+    "domain": [
+      "e-commerce",
+      "jewellery",
+      "consumer"
+    ],
+    "functional_context": [
+      "browsing"
+    ],
+    "audience_signals": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "anti-saas-not-saasy",
+  "category": "anti-vibe",
+  "_methodology_note": "anti_vibes narrowed in Phase 2.1a Task 1 audit to attested-only set. 'not SaaS-y' / 'no rounded-2xl on every card' / 'not a YC-template clone' were search-audited and surfaced as fixture-coined ('SaaSy' exists as positive descriptor not rejection vocabulary; 'rounded-2xl' isn't critique vocabulary as of May 2026). Original LAYOUT-4a in must_avoid dropped — anti-conversion-stack-rejection-vocabulary not attested. must_avoid expanded to include COLOR-7 (the brief explicitly rejects purple-to-blue gradients, which targets COLOR-7's Iridescent / Gradient-Tech grammar). Two well-attested anti-vibes ('no Inter everywhere' → TYPE-5, 'no purple-to-blue gradients' → COLOR-7) via 925Studios catalog + 5 corroborating sources.",
+  "brief": "Build me a B2B product landing page — no Inter everywhere, no purple-to-blue gradients.",
+  "expected": {
+    "must_avoid": ["TYPE-5", "COLOR-7"]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [],
+    "vernacular": ["B2B product landing page"],
+    "anti_vibes": ["no Inter everywhere", "no purple-to-blue gradients"],
+    "compositional_intent": [],
+    "domain": ["B2B"],
+    "functional_context": ["landing page"],
+    "audience_signals": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "broken-layer-cake-uninformative-headings",
+  "category": "broken",
+  "brief": "Knowledge base optimized for layer-cake heading-skipping reading, but with generic headings — \"Introduction\", \"Background\", \"Overview\", \"Summary\" — that don't carry section meaning.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["knowledge base"],
+    "vernacular": ["layer-cake heading-skipping reading", "generic headings"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [],
+    "functional_context": ["knowledge base"],
+    "audience_signals": []
+  }
+}

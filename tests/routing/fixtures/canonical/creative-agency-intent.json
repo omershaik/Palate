@@ -1,0 +1,53 @@
+{
+  "id": "creative-agency-intent",
+  "category": "canonical",
+  "brief": "I want the layout itself to be a brand statement. Make it feel art-directed, not generated. We're a small design studio signaling 'we are makers, not marketers'.",
+  "expected": {
+    "canonical": "Awwwards-Tier Creative Agency",
+    "axes": {
+      "layout": "LAYOUT-6",
+      "typography": "TYPE-6",
+      "color": [
+        "COLOR-7",
+        "COLOR-5",
+        "COLOR-3"
+      ],
+      "component": [
+        "COMP-7",
+        "COMP-5"
+      ],
+      "motion": "MOTION-7",
+      "imagery": [
+        "IMG-6",
+        "IMG-5",
+        "IMG-3"
+      ],
+      "density": "DEN-2",
+      "voice": [
+        "VOICE-2",
+        "VOICE-8"
+      ],
+      "reading_pattern": "RP-5"
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [],
+    "vernacular": [],
+    "anti_vibes": [
+      "not generated"
+    ],
+    "compositional_intent": [
+      "layout itself to be a brand statement",
+      "art-directed, not generated",
+      "we are makers, not marketers"
+    ],
+    "domain": [
+      "design studio",
+      "creative agency"
+    ],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

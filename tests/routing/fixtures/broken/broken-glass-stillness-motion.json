@@ -1,0 +1,20 @@
+{
+  "id": "broken-glass-stillness-motion",
+  "category": "broken",
+  "brief": "Apple-style glass and layered components, frosted-glass surfaces, translucent depth — but with stillness-as-discipline motion. No parallax, no atmospheric depth, no movement at all.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Apple"],
+    "vibes": [],
+    "vernacular": ["glass and layered components", "frosted-glass", "translucent depth", "stillness-as-discipline motion", "no parallax", "no atmospheric depth"],
+    "anti_vibes": ["no movement"],
+    "compositional_intent": [],
+    "domain": [],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

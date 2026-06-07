@@ -1,0 +1,18 @@
+{
+  "id": "anti-beauty-not-glossier-cliche",
+  "category": "anti-vibe",
+  "brief": "Skincare brand for women in their 30s, but NOT Glossier and NOT Headspace clichés — no millennial pink. Considered consumer beauty for grown-ups.",
+  "expected": {
+    "must_avoid": ["COLOR-6"]
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Glossier", "Headspace"],
+    "vibes": ["skincare brand", "consumer beauty for grown-ups"],
+    "vernacular": [],
+    "anti_vibes": ["no millennial pink"],
+    "compositional_intent": [],
+    "domain": ["beauty", "skincare"],
+    "functional_context": [],
+    "audience_signals": ["women in their 30s"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "broken-app-density-scroll-cinematic",
+  "category": "broken",
+  "brief": "Linear-style application UI with mono-density components and dense data tables, but with scroll-driven cinematic motion — sticky-pinned sections, scroll-triggered hero reveals, parallax depth.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Linear"],
+    "vibes": ["application UI"],
+    "vernacular": ["mono-density components", "data tables", "scroll-driven cinematic motion", "sticky-pinned sections", "scroll-triggered hero reveals", "parallax depth"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [],
+    "functional_context": ["application UI"],
+    "audience_signals": []
+  }
+}

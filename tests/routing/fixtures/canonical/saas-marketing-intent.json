@@ -1,0 +1,48 @@
+{
+  "id": "saas-marketing-intent",
+  "category": "canonical",
+  "brief": "I need visitors to sign up. Every section should drive toward the CTA. I'm running a B2B startup and we need conversions on the marketing site.",
+  "expected": {
+    "canonical": "Standard SaaS Marketing",
+    "axes": {
+      "layout": "LAYOUT-4a",
+      "typography": "TYPE-5",
+      "color": "COLOR-8a",
+      "component": "COMP-2",
+      "motion": "MOTION-3",
+      "imagery": [
+        "IMG-7",
+        "IMG-6"
+      ],
+      "density": "DEN-3",
+      "voice": [
+        "VOICE-7",
+        "VOICE-3"
+      ],
+      "reading_pattern": "RP-2"
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [],
+    "vernacular": [
+      "CTA"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [
+      "need visitors to sign up",
+      "every section should drive toward the CTA",
+      "we need conversions"
+    ],
+    "domain": [
+      "B2B",
+      "SaaS",
+      "startup"
+    ],
+    "functional_context": [
+      "marketing site"
+    ],
+    "audience_signals": []
+  }
+}

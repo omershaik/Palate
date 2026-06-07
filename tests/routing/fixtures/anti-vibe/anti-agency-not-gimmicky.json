@@ -1,0 +1,18 @@
+{
+  "id": "anti-agency-not-gimmicky",
+  "category": "anti-vibe",
+  "brief": "Awwwards-tier creative-agency portfolio — art-directed, visibly designed — but NOT gimmicky. No cursor-effects-for-the-sake-of-cursor-effects, no scroll-jacking that breaks usability. Legible while still being a brand statement.",
+  "expected": {
+    "must_avoid": []
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Awwwards"],
+    "vibes": ["creative-agency portfolio", "art-directed", "visibly designed"],
+    "vernacular": [],
+    "anti_vibes": ["not gimmicky", "no cursor-effects-for-the-sake-of-cursor-effects", "no scroll-jacking that breaks usability"],
+    "compositional_intent": ["legible while still being a brand statement"],
+    "domain": ["creative agency"],
+    "functional_context": ["portfolio"],
+    "audience_signals": []
+  }
+}

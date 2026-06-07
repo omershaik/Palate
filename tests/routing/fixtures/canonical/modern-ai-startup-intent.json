@@ -1,0 +1,47 @@
+{
+  "id": "modern-ai-startup-intent",
+  "category": "canonical",
+  "brief": "I want it to feel like a 2025 AI product launch. Premium-digital, computational sophistication, multiple features in one screen, fast.",
+  "expected": {
+    "canonical": "Modern AI Startup",
+    "axes": {
+      "layout": "LAYOUT-3a",
+      "typography": "TYPE-5",
+      "color": [
+        "COLOR-4",
+        "COLOR-7"
+      ],
+      "component": "COMP-2",
+      "motion": "MOTION-3",
+      "imagery": "IMG-5",
+      "density": "DEN-3",
+      "voice": [
+        "VOICE-7",
+        "VOICE-5"
+      ],
+      "reading_pattern": "RP-2"
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [
+      "premium-digital",
+      "fast"
+    ],
+    "vernacular": [],
+    "anti_vibes": [],
+    "compositional_intent": [
+      "feel like a 2025 AI product launch",
+      "computational sophistication",
+      "multiple features in one screen"
+    ],
+    "domain": [
+      "AI"
+    ],
+    "functional_context": [
+      "product launch"
+    ],
+    "audience_signals": []
+  }
+}

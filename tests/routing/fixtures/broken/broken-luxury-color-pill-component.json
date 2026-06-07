@@ -1,0 +1,20 @@
+{
+  "id": "broken-luxury-color-pill-component",
+  "category": "broken",
+  "brief": "Aman-coded quiet-luxury color palette — three-color discipline, paper/ink/stone — but with pill-and-cushion buttons everywhere, fully-rounded card components.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Aman"],
+    "vibes": ["quiet luxury"],
+    "vernacular": ["three-color discipline", "pill-and-cushion buttons", "fully-rounded card components"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": ["hospitality"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

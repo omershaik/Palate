@@ -1,0 +1,56 @@
+{
+  "id": "developer-tool-vibes",
+  "category": "canonical",
+  "brief": "Terminal-coded marketing — technical precision, dark, Berkeley Mono in places, code samples inline, dense feature breakdown for engineers.",
+  "expected": {
+    "canonical": "Developer Tool Marketing",
+    "axes": {
+      "layout": [
+        "LAYOUT-3a",
+        "LAYOUT-4a"
+      ],
+      "typography": [
+        "TYPE-4",
+        "TYPE-5"
+      ],
+      "color": "COLOR-4",
+      "component": "COMP-8b",
+      "motion": "MOTION-3",
+      "imagery": [
+        "IMG-5",
+        "IMG-8"
+      ],
+      "density": "DEN-4",
+      "voice": "VOICE-9",
+      "reading_pattern": [
+        "RP-1",
+        "RP-2"
+      ]
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [
+      "terminal-coded",
+      "technical precision",
+      "dark",
+      "code samples inline"
+    ],
+    "vernacular": [
+      "Berkeley Mono",
+      "feature breakdown"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "developer tools"
+    ],
+    "functional_context": [
+      "marketing"
+    ],
+    "audience_signals": [
+      "engineers"
+    ]
+  }
+}

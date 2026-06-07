@@ -1,0 +1,79 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Test output
+coverage/
+.vitest/
+vitest.config.ts.timestamp-*.mjs
+vitest.config.*.timestamp-*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local-only spec scratch
+spec/scratch/
+
+# Per-commit message files (Phase 1 workflow — written by the agent,
+# committed via .command scripts due to FUSE-mount unlink restrictions
+# in the bash sandbox).
+.git-commit-msg-*.txt
+*.command
+
+# Phase 1 debug artifact (created during FUSE-behavior probe; orphaned
+# because the sandbox can't unlink in-workspace files).
+probe-rm.txt
+
+# Phase 2.1b Task 6a/6b/6c debug scripts (created during checkpoint
+# investigation; orphaned for the same FUSE-unlink reason as
+# probe-rm.txt). Standalone Node scripts that import dist/ and run
+# fixtures through the pipeline with verbose output.
+dbg-task6a.mjs
+dbg-layout.mjs
+dbg-route-output.mjs
+
+# Phase 3 Task 6 MCP smoke test — spawns the CLI via tsx and exercises
+# the protocol over stdio. Same FUSE-unlink reason; gitignored as a
+# checkpoint artifact, not part of the test suite.
+mcp-smoke.mjs
+
+# Phase 3 close audit — script that compares per-grammar token table
+# comments to the corpus's authoritative grammar names. Surfaced the
+# 14-instance token-grammar mapping bug logged as v0.2 backlog Finding A.
+# Same FUSE-unlink reason; gitignored as a checkpoint artifact.
+audit-comments.mjs
+
+# Phase 3 Task 9 brand-fingerprint coverage audit script — walks
+# corpus altnames for brand_exemplars-bucket mentions, compares against
+# existing 15 fingerprint slugs, surfaces gaps. Logged outcome led to
+# the Option-C tombstone approach in spec/derived/brand-fingerprints.json.
+brand-audit.mjs
+
+# Local debug probe scripts. The scripts/ directory holds throwaway
+# utilities used during loader development; nothing here is part of
+# the runtime or the test suite.
+scripts/
+
+# Internal / stray cross-project files (keep local, not public)
+CLAUDE.md
+vibe-builder-meta-prompts.md
+orion-valley.html
+virsa-night.html

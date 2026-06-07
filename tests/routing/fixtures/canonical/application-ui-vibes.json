@@ -1,0 +1,57 @@
+{
+  "id": "application-ui-vibes",
+  "category": "canonical",
+  "brief": "Workspace feel, productivity tool, power-user interface for daily use. Information-dense, KPI tiles, instant feedback on every interaction, clean direct copy.",
+  "expected": {
+    "canonical": "Application UI (Modern B2B Dashboard)",
+    "axes": {
+      "layout": [
+        "LAYOUT-10",
+        "LAYOUT-3b"
+      ],
+      "typography": [
+        "TYPE-5",
+        "TYPE-4"
+      ],
+      "color": [
+        "COLOR-8b",
+        "COLOR-4"
+      ],
+      "component": "COMP-8a",
+      "motion": [
+        "MOTION-3",
+        "MOTION-9"
+      ],
+      "imagery": "IMG-8",
+      "density": "DEN-5",
+      "voice": "VOICE-4"
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [
+      "workspace feel",
+      "productivity tool",
+      "power-user interface",
+      "information-dense",
+      "instant feedback",
+      "clean direct"
+    ],
+    "vernacular": [
+      "KPI tiles"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "B2B"
+    ],
+    "functional_context": [
+      "application UI",
+      "daily use"
+    ],
+    "audience_signals": [
+      "power users"
+    ]
+  }
+}

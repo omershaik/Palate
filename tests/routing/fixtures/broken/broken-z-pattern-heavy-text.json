@@ -1,0 +1,20 @@
+{
+  "id": "broken-z-pattern-heavy-text",
+  "category": "broken",
+  "brief": "Z-pattern marketing landing page, but the page is text-heavy — long paragraphs, dense reading, no visual structure between text blocks.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["marketing landing page"],
+    "vernacular": ["Z-pattern", "text-heavy", "long paragraphs", "dense reading"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [],
+    "functional_context": ["landing page"],
+    "audience_signals": []
+  }
+}

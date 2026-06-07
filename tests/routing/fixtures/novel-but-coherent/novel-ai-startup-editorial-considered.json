@@ -1,0 +1,19 @@
+{
+  "id": "novel-ai-startup-editorial-considered",
+  "category": "novel-but-coherent",
+  "brief": "Modern AI startup launch — bento, dark-mode, geometric type, 3D abstract hero — but with editorial-considered voice instead of conversion-punchy. Longer-form considered copy for sophisticated AI buyers.",
+  "expected": {
+    "is_novel": true,
+    "min_confidence": 0.5
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["modern AI startup launch", "editorial-considered voice"],
+    "vernacular": ["bento", "dark-mode", "geometric type", "3D abstract hero", "longer-form considered copy"],
+    "anti_vibes": ["instead of conversion-punchy"],
+    "compositional_intent": [],
+    "domain": ["AI"],
+    "functional_context": ["launch"],
+    "audience_signals": ["sophisticated AI buyers"]
+  }
+}

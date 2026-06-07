@@ -1,0 +1,19 @@
+{
+  "id": "novel-premium-hardware-documentary",
+  "category": "novel-but-coherent",
+  "brief": "Premium consumer hardware brand site, but instead of glossy product photography use behind-the-scenes documentary photography — the workshop, the craftspeople, the materials being made.",
+  "expected": {
+    "is_novel": true,
+    "min_confidence": 0.5
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["premium consumer hardware", "behind-the-scenes"],
+    "vernacular": ["documentary photography", "workshop", "craftspeople"],
+    "anti_vibes": ["instead of glossy product photography"],
+    "compositional_intent": [],
+    "domain": ["consumer hardware"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

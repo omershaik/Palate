@@ -1,0 +1,19 @@
+{
+  "id": "novel-developer-tool-editorial",
+  "category": "novel-but-coherent",
+  "brief": "Developer tool marketing for a serious infrastructure product — technical-precise voice, mono typography — but in an editorial long-form layout instead of bento. Each feature is a long-form essay with code samples inline.",
+  "expected": {
+    "is_novel": true,
+    "min_confidence": 0.5
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["developer tool", "technical-precise voice"],
+    "vernacular": ["mono typography", "editorial long-form layout", "code samples inline"],
+    "anti_vibes": ["instead of bento"],
+    "compositional_intent": ["each feature is a long-form essay"],
+    "domain": ["developer tools", "infrastructure"],
+    "functional_context": ["marketing"],
+    "audience_signals": ["engineers"]
+  }
+}

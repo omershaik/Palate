@@ -1,0 +1,48 @@
+{
+  "id": "premium-hardware-intent",
+  "category": "canonical",
+  "brief": "I want to communicate, not convert. The product deserves room to breathe. We're launching a $4000 audio device and the page should make complexity feel simple.",
+  "expected": {
+    "canonical": "Premium Consumer Hardware",
+    "axes": {
+      "layout": "LAYOUT-4b",
+      "typography": "TYPE-2",
+      "color": [
+        "COLOR-7",
+        "COLOR-4"
+      ],
+      "component": "COMP-6",
+      "motion": [
+        "MOTION-8",
+        "MOTION-5"
+      ],
+      "imagery": [
+        "IMG-4",
+        "IMG-5"
+      ],
+      "density": "DEN-2",
+      "voice": "VOICE-5",
+      "reading_pattern": "RP-2"
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [],
+    "vernacular": [],
+    "anti_vibes": [],
+    "compositional_intent": [
+      "communicate, not convert",
+      "product deserves room to breathe",
+      "make complexity feel simple"
+    ],
+    "domain": [
+      "consumer hardware",
+      "audio"
+    ],
+    "functional_context": [
+      "product launch"
+    ],
+    "audience_signals": []
+  }
+}

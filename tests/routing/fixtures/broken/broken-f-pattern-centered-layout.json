@@ -1,0 +1,20 @@
+{
+  "id": "broken-f-pattern-centered-layout",
+  "category": "broken",
+  "brief": "Long-form blog optimized for F-pattern scanning, but with everything centered — centered headings, centered body text, centered CTAs throughout.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["long-form blog"],
+    "vernacular": ["F-pattern scanning", "centered headings", "centered body text", "centered CTAs"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [],
+    "functional_context": ["blog"],
+    "audience_signals": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "fail-contradictory-canonicals",
+  "category": "failure-mode",
+  "_v01_status": "DEFERRED to v0.2 signal-level detection. Phase 2.1a Task 2's score-distribution detector doesn't fire on this fixture because the 4 spread-out vibes produce moderate scores everywhere — top-1 (canonical-7 Neo-Brutalist) at 0.667, top-2 (canonical-2) at 0.556, ratio 0.833 below any reasonable detector threshold. No canonical dominates, no two canonicals tie. v0.2 fix: signal-level detection examining whether multiple vibes attribute to different register-family canonicals. See docs/phase-2.1-deferred.md Category E.",
+  "brief": "Build me a luxury hospitality site that's also a B2B SaaS dashboard, with neo-brutalist aesthetics and editorial-considered voice.",
+  "expected": {
+    "should_fail": true,
+    "expected_warnings": [
+      { "severity": "conflict", "code": "contradictory_canonicals" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["luxury hospitality", "B2B SaaS dashboard", "neo-brutalist", "editorial-considered voice"],
+    "vernacular": [],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": ["hospitality", "B2B SaaS"],
+    "functional_context": ["site", "dashboard"],
+    "audience_signals": []
+  }
+}

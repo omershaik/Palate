@@ -1,0 +1,56 @@
+{
+  "id": "wellness-dtc-brand",
+  "category": "canonical",
+  "brief": "Build a Glossier-style or Aesop-coded beauty DTC site — pill-shaped buttons, pastel palette, lifestyle photography, friendly playful copy.",
+  "expected": {
+    "canonical": "Wellness / Beauty DTC",
+    "axes": {
+      "layout": [
+        "LAYOUT-4a",
+        "LAYOUT-4b"
+      ],
+      "typography": [
+        "TYPE-1",
+        "TYPE-5"
+      ],
+      "color": [
+        "COLOR-6",
+        "COLOR-2"
+      ],
+      "component": "COMP-4",
+      "motion": "MOTION-2",
+      "imagery": "IMG-2",
+      "density": [
+        "DEN-3",
+        "DEN-2"
+      ],
+      "voice": "VOICE-6",
+      "reading_pattern": "RP-2"
+    },
+    "min_confidence": 0.85
+  },
+  "stub_signals": {
+    "brand_exemplars": [
+      "Glossier",
+      "Aesop"
+    ],
+    "vibes": [
+      "beauty DTC",
+      "friendly playful"
+    ],
+    "vernacular": [
+      "pill-shaped buttons",
+      "pastel palette",
+      "lifestyle photography"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "beauty",
+      "DTC",
+      "wellness"
+    ],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

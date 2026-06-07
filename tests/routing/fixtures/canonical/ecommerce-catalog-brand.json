@@ -1,0 +1,53 @@
+{
+  "id": "ecommerce-catalog-brand",
+  "category": "canonical",
+  "brief": "Build an e-commerce catalog like Amazon or Mejuri — product grid, white-background product photography, friendly expert copy, single-accent palette.",
+  "expected": {
+    "canonical": "E-Commerce Catalog",
+    "axes": {
+      "layout": "LAYOUT-9",
+      "typography": [
+        "TYPE-5",
+        "TYPE-1"
+      ],
+      "color": "COLOR-8a",
+      "component": "COMP-2",
+      "motion": "MOTION-3",
+      "imagery": "IMG-4",
+      "density": [
+        "DEN-3",
+        "DEN-4"
+      ],
+      "voice": [
+        "VOICE-3",
+        "VOICE-9"
+      ],
+      "reading_pattern": "RP-5"
+    },
+    "min_confidence": 0.85
+  },
+  "stub_signals": {
+    "brand_exemplars": [
+      "Amazon",
+      "Mejuri"
+    ],
+    "vibes": [
+      "e-commerce",
+      "friendly expert"
+    ],
+    "vernacular": [
+      "product grid",
+      "white-background product photography",
+      "single-accent palette"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "e-commerce"
+    ],
+    "functional_context": [
+      "catalog"
+    ],
+    "audience_signals": []
+  }
+}

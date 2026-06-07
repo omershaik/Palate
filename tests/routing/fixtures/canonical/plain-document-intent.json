@@ -1,0 +1,41 @@
+{
+  "id": "plain-document-intent",
+  "category": "canonical",
+  "brief": "The writing should be the entire experience. I want the design to disappear. I trust the reader to read. Personal blog for an essayist.",
+  "expected": {
+    "canonical": "Plain Document (Paul Graham Tier)",
+    "axes": {
+      "layout": "LAYOUT-8",
+      "typography": "TYPE-2",
+      "color": "COLOR-3",
+      "component": "COMP-1",
+      "motion": "MOTION-1",
+      "density": "DEN-1",
+      "voice": [
+        "VOICE-2",
+        "VOICE-4"
+      ],
+      "reading_pattern": "RP-3"
+    },
+    "min_confidence": 0.65
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [],
+    "vernacular": [],
+    "anti_vibes": [],
+    "compositional_intent": [
+      "writing should be the entire experience",
+      "design to disappear",
+      "trust the reader to read"
+    ],
+    "domain": [
+      "personal site",
+      "essayist"
+    ],
+    "functional_context": [
+      "blog"
+    ],
+    "audience_signals": []
+  }
+}

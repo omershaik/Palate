@@ -1,0 +1,20 @@
+{
+  "id": "broken-f-and-z-pattern-mixed",
+  "category": "broken",
+  "brief": "Hybrid layout that's both F-pattern in the article body AND Z-pattern across the hero and CTAs in the same page section. Optimized for both at once.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [],
+    "vernacular": ["F-pattern", "Z-pattern", "hybrid layout"],
+    "anti_vibes": [],
+    "compositional_intent": ["optimized for both at once"],
+    "domain": [],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

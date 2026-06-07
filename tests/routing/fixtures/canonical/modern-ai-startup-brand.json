@@ -1,0 +1,51 @@
+{
+  "id": "modern-ai-startup-brand",
+  "category": "canonical",
+  "brief": "Build me a launch page like OpenAI or Anthropic — modern AI startup, dark mode, bento grid feature cards, product hero.",
+  "expected": {
+    "canonical": "Modern AI Startup",
+    "axes": {
+      "layout": "LAYOUT-3a",
+      "typography": "TYPE-5",
+      "color": [
+        "COLOR-4",
+        "COLOR-7"
+      ],
+      "component": "COMP-2",
+      "motion": "MOTION-3",
+      "imagery": "IMG-5",
+      "density": "DEN-3",
+      "voice": [
+        "VOICE-7",
+        "VOICE-5"
+      ],
+      "reading_pattern": "RP-2"
+    },
+    "min_confidence": 0.85
+  },
+  "stub_signals": {
+    "brand_exemplars": [
+      "OpenAI",
+      "Anthropic"
+    ],
+    "vibes": [
+      "modern AI startup",
+      "product hero"
+    ],
+    "vernacular": [
+      "bento grid",
+      "feature cards",
+      "dark mode"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "AI",
+      "tech startup"
+    ],
+    "functional_context": [
+      "launch page"
+    ],
+    "audience_signals": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "broken-stock-photo-vre",
+  "category": "broken",
+  "brief": "Quiet-luxury vertical-rhythm editorial layout for a hotel site, but use generic stock photography from Unsplash for the hero and section breaks.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["quiet luxury", "vertical-rhythm editorial"],
+    "vernacular": ["stock photography", "Unsplash"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": ["hospitality"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

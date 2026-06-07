@@ -1,0 +1,21 @@
+{
+  "id": "fail-too-ambiguous",
+  "category": "failure-mode",
+  "brief": "Make me a website.",
+  "expected": {
+    "should_fail": true,
+    "expected_warnings": [
+      { "severity": "conflict", "code": "brief_too_ambiguous" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [],
+    "vernacular": [],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [],
+    "functional_context": ["website"],
+    "audience_signals": []
+  }
+}

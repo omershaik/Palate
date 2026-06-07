@@ -1,0 +1,20 @@
+{
+  "id": "broken-vre-conversion-voice",
+  "category": "broken",
+  "brief": "Build a luxury hotel landing page with editorial vertical-rhythm layout, but use punchy conversion copy — \"Sign up now\", \"Get started in 2 minutes\", urgent CTAs everywhere.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["luxury hotel", "editorial vertical-rhythm"],
+    "vernacular": ["punchy conversion copy", "urgent CTAs"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": ["hospitality"],
+    "functional_context": ["landing page"],
+    "audience_signals": []
+  }
+}

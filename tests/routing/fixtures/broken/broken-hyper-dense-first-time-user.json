@@ -1,0 +1,20 @@
+{
+  "id": "broken-hyper-dense-first-time-user",
+  "category": "broken",
+  "brief": "Bloomberg-Terminal-style hyper-dense interface, but for first-time users signing up to our consumer fintech onboarding flow.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Bloomberg Terminal"],
+    "vibes": ["hyper-dense interface"],
+    "vernacular": [],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": ["fintech", "consumer"],
+    "functional_context": ["onboarding flow"],
+    "audience_signals": ["first-time users"]
+  }
+}

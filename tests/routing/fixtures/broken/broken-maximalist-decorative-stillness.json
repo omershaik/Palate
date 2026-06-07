@@ -1,0 +1,20 @@
+{
+  "id": "broken-maximalist-decorative-stillness",
+  "category": "broken",
+  "brief": "Maximalist-decorative components — collage elements, hand-drawn shapes, sticker-style buttons — but with stillness-as-discipline motion. Everything frozen, no animation anywhere.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [],
+    "vernacular": ["maximalist-decorative components", "collage elements", "hand-drawn shapes", "sticker-style buttons", "stillness-as-discipline motion"],
+    "anti_vibes": ["no animation anywhere"],
+    "compositional_intent": [],
+    "domain": [],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

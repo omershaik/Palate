@@ -1,0 +1,20 @@
+{
+  "id": "broken-irreverent-bold-spacious-restrained",
+  "category": "broken",
+  "brief": "Liquid-Death-style irreverent-bold voice — anti-corporate, provocative, confrontational — but in an editorial-spacious layout with restrained-atmospheric motion. Quiet on every dimension except the copy.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Liquid Death"],
+    "vibes": ["irreverent-bold", "anti-corporate", "provocative", "confrontational"],
+    "vernacular": ["editorial-spacious", "restrained-atmospheric motion"],
+    "anti_vibes": [],
+    "compositional_intent": ["quiet on every dimension except the copy"],
+    "domain": [],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

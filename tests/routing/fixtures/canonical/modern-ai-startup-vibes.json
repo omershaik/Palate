@@ -1,0 +1,48 @@
+{
+  "id": "modern-ai-startup-vibes",
+  "category": "canonical",
+  "brief": "Modern AI launch — clean, dark, contemporary. Multiple features to surface in a tile grid. Snappy interactions, abstract 3D hero illustrations.",
+  "expected": {
+    "canonical": "Modern AI Startup",
+    "axes": {
+      "layout": "LAYOUT-3a",
+      "typography": "TYPE-5",
+      "color": [
+        "COLOR-4",
+        "COLOR-7"
+      ],
+      "component": "COMP-2",
+      "motion": "MOTION-3",
+      "imagery": "IMG-5",
+      "density": "DEN-3",
+      "voice": [
+        "VOICE-7",
+        "VOICE-5"
+      ],
+      "reading_pattern": "RP-2"
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [
+      "modern AI launch",
+      "clean",
+      "dark",
+      "contemporary"
+    ],
+    "vernacular": [
+      "tile grid",
+      "abstract 3D"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [
+      "multiple features to surface"
+    ],
+    "domain": [
+      "AI"
+    ],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

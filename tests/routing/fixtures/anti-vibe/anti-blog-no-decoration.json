@@ -1,0 +1,18 @@
+{
+  "id": "anti-blog-no-decoration",
+  "category": "anti-vibe",
+  "brief": "Personal blog — no decoration. Just text. The writing is the experience.",
+  "expected": {
+    "must_avoid": ["COMP-4"]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["personal blog"],
+    "vernacular": [],
+    "anti_vibes": ["no decoration"],
+    "compositional_intent": ["the writing is the experience"],
+    "domain": ["personal site"],
+    "functional_context": ["blog"],
+    "audience_signals": []
+  }
+}

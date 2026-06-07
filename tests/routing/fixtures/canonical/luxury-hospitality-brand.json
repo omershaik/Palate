@@ -1,0 +1,49 @@
+{
+  "id": "luxury-hospitality-brand",
+  "category": "canonical",
+  "brief": "Build a landing page for an Aman-style luxury resort in Bali. Quiet, considered, focused on the property and the experience.",
+  "expected": {
+    "canonical": "Luxury Hospitality",
+    "axes": {
+      "layout": "LAYOUT-1",
+      "typography": "TYPE-1",
+      "color": [
+        "COLOR-1",
+        "COLOR-2"
+      ],
+      "component": "COMP-1",
+      "motion": "MOTION-1",
+      "imagery": "IMG-1",
+      "density": "DEN-1",
+      "voice": "VOICE-1",
+      "reading_pattern": [
+        "RP-3",
+        "RP-1"
+      ]
+    },
+    "min_confidence": 0.8
+  },
+  "stub_signals": {
+    "brand_exemplars": [
+      "Aman"
+    ],
+    "vibes": [
+      "luxury",
+      "quiet",
+      "considered"
+    ],
+    "vernacular": [],
+    "anti_vibes": [],
+    "compositional_intent": [
+      "focused on the property and the experience"
+    ],
+    "domain": [
+      "hospitality",
+      "resort"
+    ],
+    "functional_context": [
+      "landing page"
+    ],
+    "audience_signals": []
+  }
+}

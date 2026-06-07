@@ -1,0 +1,20 @@
+{
+  "id": "broken-technical-precise-pill-pastel",
+  "category": "broken",
+  "brief": "Technical-precise developer-tool voice for a serious infra product — domain vocabulary, no jargon performance — but with pill-and-cushion components and a pastel-vibrant Y2K palette.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["technical-precise developer-tool voice"],
+    "vernacular": ["pill-and-cushion components", "pastel-vibrant", "Y2K palette"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": ["developer tools", "infrastructure"],
+    "functional_context": [],
+    "audience_signals": ["engineers"]
+  }
+}

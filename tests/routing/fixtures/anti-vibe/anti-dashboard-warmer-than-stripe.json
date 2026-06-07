@@ -1,0 +1,18 @@
+{
+  "id": "anti-dashboard-warmer-than-stripe",
+  "category": "anti-vibe",
+  "brief": "B2B dashboard product, but warmer than typical Stripe-coded UI. Not too cold, not pure utility — humans use this every day and the UI should feel made for them.",
+  "expected": {
+    "must_avoid": ["VOICE-4"]
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Stripe"],
+    "vibes": ["B2B dashboard"],
+    "vernacular": [],
+    "anti_vibes": ["not too cold", "not pure utility", "warmer than typical Stripe-coded UI"],
+    "compositional_intent": ["humans use this every day", "should feel made for them"],
+    "domain": ["B2B"],
+    "functional_context": ["dashboard"],
+    "audience_signals": ["daily users"]
+  }
+}

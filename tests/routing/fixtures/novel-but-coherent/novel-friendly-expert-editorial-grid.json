@@ -1,0 +1,19 @@
+{
+  "id": "novel-friendly-expert-editorial-grid",
+  "category": "novel-but-coherent",
+  "brief": "Modern fintech consumer brand — Mailchimp-style friendly-expert voice, warm and helpful — but laid out as an editorial-grid magazine instead of typical conversion-stack. Stories from customers as feature spreads.",
+  "expected": {
+    "is_novel": true,
+    "min_confidence": 0.5
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Mailchimp"],
+    "vibes": ["fintech consumer", "friendly-expert voice", "warm and helpful"],
+    "vernacular": ["editorial-grid magazine", "feature spreads"],
+    "anti_vibes": ["instead of typical conversion-stack"],
+    "compositional_intent": ["stories from customers as feature spreads"],
+    "domain": ["fintech", "consumer"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

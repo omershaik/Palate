@@ -1,0 +1,50 @@
+{
+  "id": "editorial-magazine-intent",
+  "category": "canonical",
+  "brief": "I want it to have a voice — copy as a design element, not just text on a page. Made-by-a-person feel. We're building a quarterly print magazine's web home.",
+  "expected": {
+    "canonical": "Editorial Magazine",
+    "axes": {
+      "layout": "LAYOUT-2",
+      "typography": [
+        "TYPE-3",
+        "TYPE-1"
+      ],
+      "color": [
+        "COLOR-2",
+        "COLOR-3"
+      ],
+      "component": [
+        "COMP-5",
+        "COMP-1"
+      ],
+      "motion": "MOTION-2",
+      "imagery": "IMG-1",
+      "density": "DEN-1",
+      "voice": "VOICE-2",
+      "reading_pattern": [
+        "RP-3",
+        "RP-1"
+      ]
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [],
+    "vernacular": [],
+    "anti_vibes": [],
+    "compositional_intent": [
+      "copy as a design element, not just text on a page",
+      "made-by-a-person feel"
+    ],
+    "domain": [
+      "publishing",
+      "magazine"
+    ],
+    "functional_context": [
+      "web home"
+    ],
+    "audience_signals": []
+  }
+}

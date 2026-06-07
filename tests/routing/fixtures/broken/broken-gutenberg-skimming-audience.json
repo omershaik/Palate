@@ -1,0 +1,20 @@
+{
+  "id": "broken-gutenberg-skimming-audience",
+  "category": "broken",
+  "brief": "Marketing landing page optimized for Gutenberg engaged-reader pattern — terminal optical zone CTAs, reading-gravity flow — but our audience is skimming search-arrival visitors who decide in 5 seconds.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["marketing landing page"],
+    "vernacular": ["Gutenberg engaged-reader pattern", "terminal optical zone CTAs", "reading-gravity flow"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [],
+    "functional_context": ["landing page"],
+    "audience_signals": ["skimming search-arrival visitors", "decide in 5 seconds"]
+  }
+}

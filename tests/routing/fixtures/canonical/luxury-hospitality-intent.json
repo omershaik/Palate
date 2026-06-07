@@ -1,0 +1,46 @@
+{
+  "id": "luxury-hospitality-intent",
+  "category": "canonical",
+  "brief": "I want it to feel expensive but not loud. The kind of brand where you trust them just from the photography. Booking flow for a small private island resort.",
+  "expected": {
+    "canonical": "Luxury Hospitality",
+    "axes": {
+      "layout": "LAYOUT-1",
+      "typography": "TYPE-1",
+      "color": [
+        "COLOR-1",
+        "COLOR-2"
+      ],
+      "component": "COMP-1",
+      "motion": "MOTION-1",
+      "imagery": "IMG-1",
+      "density": "DEN-1",
+      "voice": "VOICE-1",
+      "reading_pattern": [
+        "RP-3",
+        "RP-1"
+      ]
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [],
+    "vernacular": [],
+    "anti_vibes": [
+      "not loud"
+    ],
+    "compositional_intent": [
+      "expensive but not loud",
+      "trust them just from the photography"
+    ],
+    "domain": [
+      "hospitality",
+      "resort"
+    ],
+    "functional_context": [
+      "booking flow"
+    ],
+    "audience_signals": []
+  }
+}

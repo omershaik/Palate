@@ -1,0 +1,19 @@
+{
+  "id": "novel-wellness-neo-brutalist",
+  "category": "novel-but-coherent",
+  "brief": "Y2K-revival wellness brand — warm pastel-vibrant palette, lifestyle photography, casual playful copy — but with neo-brutalist hard-bordered components instead of typical pill-and-cushion.",
+  "expected": {
+    "is_novel": true,
+    "min_confidence": 0.5
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["Y2K-revival wellness", "warm pastel-vibrant", "lifestyle photography", "casual playful"],
+    "vernacular": ["neo-brutalist hard-bordered components"],
+    "anti_vibes": ["instead of typical pill-and-cushion"],
+    "compositional_intent": [],
+    "domain": ["wellness"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

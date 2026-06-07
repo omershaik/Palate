@@ -1,0 +1,18 @@
+{
+  "id": "anti-startup-no-build-the-future",
+  "category": "anti-vibe",
+  "brief": "Modern fintech startup landing page — no \"Build the future of\" hero, no \"Trusted by thousands of teams worldwide\", no \"Get started in 2 minutes\" CTA. Confident copy that says what the product actually does.",
+  "expected": {
+    "must_avoid": ["VOICE-7"]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["fintech startup landing page"],
+    "vernacular": [],
+    "anti_vibes": ["no \"Build the future of\" hero", "no \"Trusted by thousands\"", "no \"Get started in 2 minutes\" CTA"],
+    "compositional_intent": ["confident copy that says what the product actually does"],
+    "domain": ["fintech", "startup"],
+    "functional_context": ["landing page"],
+    "audience_signals": []
+  }
+}

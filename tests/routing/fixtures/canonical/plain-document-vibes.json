@@ -1,0 +1,45 @@
+{
+  "id": "plain-document-vibes",
+  "category": "canonical",
+  "brief": "Plain, minimal, content-first. Like a book — no decoration, just text. Stillness. Generous spacing for reading. Writer's site.",
+  "expected": {
+    "canonical": "Plain Document (Paul Graham Tier)",
+    "axes": {
+      "layout": "LAYOUT-8",
+      "typography": "TYPE-2",
+      "color": "COLOR-3",
+      "component": "COMP-1",
+      "motion": "MOTION-1",
+      "density": "DEN-1",
+      "voice": [
+        "VOICE-2",
+        "VOICE-4"
+      ],
+      "reading_pattern": "RP-3"
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [
+      "plain",
+      "minimal",
+      "content-first",
+      "like a book",
+      "stillness",
+      "generous spacing"
+    ],
+    "vernacular": [
+      "writer's site"
+    ],
+    "anti_vibes": [
+      "no decoration"
+    ],
+    "compositional_intent": [],
+    "domain": [
+      "personal site"
+    ],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

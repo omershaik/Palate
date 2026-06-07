@@ -1,0 +1,59 @@
+{
+  "id": "application-ui-brand",
+  "category": "canonical",
+  "brief": "Build a B2B dashboard like Linear or Stripe Dashboard. Application UI, dense components, sidebar nav, data tables, status accent colors.",
+  "expected": {
+    "canonical": "Application UI (Modern B2B Dashboard)",
+    "axes": {
+      "layout": [
+        "LAYOUT-10",
+        "LAYOUT-3b"
+      ],
+      "typography": [
+        "TYPE-5",
+        "TYPE-4"
+      ],
+      "color": [
+        "COLOR-8b",
+        "COLOR-4"
+      ],
+      "component": "COMP-8a",
+      "motion": [
+        "MOTION-3",
+        "MOTION-9"
+      ],
+      "imagery": "IMG-8",
+      "density": "DEN-5",
+      "voice": "VOICE-4"
+    },
+    "min_confidence": 0.85
+  },
+  "stub_signals": {
+    "brand_exemplars": [
+      "Linear",
+      "Stripe Dashboard"
+    ],
+    "vibes": [
+      "B2B dashboard"
+    ],
+    "vernacular": [
+      "application UI",
+      "dense components",
+      "sidebar nav",
+      "data tables",
+      "status accent colors"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "B2B SaaS"
+    ],
+    "functional_context": [
+      "application UI",
+      "dashboard"
+    ],
+    "audience_signals": [
+      "power users"
+    ]
+  }
+}

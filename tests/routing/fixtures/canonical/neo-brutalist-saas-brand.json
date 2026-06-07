@@ -1,0 +1,48 @@
+{
+  "id": "neo-brutalist-saas-brand",
+  "category": "canonical",
+  "brief": "Build me a Gumroad-style indie SaaS site — neo-brutalist, hard borders, saturated primaries, hard-shadow buttons, irreverent voice.",
+  "expected": {
+    "canonical": "Neo-Brutalist Indie SaaS",
+    "axes": {
+      "layout": "LAYOUT-7",
+      "typography": [
+        "TYPE-6",
+        "TYPE-4"
+      ],
+      "color": "COLOR-5",
+      "component": "COMP-3",
+      "motion": "MOTION-4",
+      "imagery": [
+        "IMG-6",
+        "IMG-7"
+      ],
+      "density": "DEN-3",
+      "voice": "VOICE-8",
+      "reading_pattern": "RP-2"
+    },
+    "min_confidence": 0.85
+  },
+  "stub_signals": {
+    "brand_exemplars": [
+      "Gumroad"
+    ],
+    "vibes": [
+      "indie SaaS",
+      "irreverent"
+    ],
+    "vernacular": [
+      "neo-brutalist",
+      "hard borders",
+      "saturated primaries",
+      "hard-shadow buttons"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "indie SaaS"
+    ],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

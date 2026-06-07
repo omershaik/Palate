@@ -1,0 +1,58 @@
+{
+  "id": "developer-tool-brand",
+  "category": "canonical",
+  "brief": "Build me a developer tool marketing page like Stripe API docs or Linear's developer site. Mono typography, dark mode, dense feature grid, technical voice.",
+  "expected": {
+    "canonical": "Developer Tool Marketing",
+    "axes": {
+      "layout": [
+        "LAYOUT-3a",
+        "LAYOUT-4a"
+      ],
+      "typography": [
+        "TYPE-4",
+        "TYPE-5"
+      ],
+      "color": "COLOR-4",
+      "component": "COMP-8b",
+      "motion": "MOTION-3",
+      "imagery": [
+        "IMG-5",
+        "IMG-8"
+      ],
+      "density": "DEN-4",
+      "voice": "VOICE-9",
+      "reading_pattern": [
+        "RP-1",
+        "RP-2"
+      ]
+    },
+    "min_confidence": 0.85
+  },
+  "stub_signals": {
+    "brand_exemplars": [
+      "Stripe API docs",
+      "Linear developer site"
+    ],
+    "vibes": [
+      "developer tool"
+    ],
+    "vernacular": [
+      "mono typography",
+      "dark mode",
+      "dense feature grid",
+      "technical voice"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "developer tools"
+    ],
+    "functional_context": [
+      "marketing page"
+    ],
+    "audience_signals": [
+      "developers"
+    ]
+  }
+}

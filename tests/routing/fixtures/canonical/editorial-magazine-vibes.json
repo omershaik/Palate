@@ -1,0 +1,52 @@
+{
+  "id": "editorial-magazine-vibes",
+  "category": "canonical",
+  "brief": "Magazine vibes — printed-page feel on the web, art-directed, member's-club energy. Asymmetric grid, italics in the leads, photography that breathes.",
+  "expected": {
+    "canonical": "Editorial Magazine",
+    "axes": {
+      "layout": "LAYOUT-2",
+      "typography": [
+        "TYPE-3",
+        "TYPE-1"
+      ],
+      "color": [
+        "COLOR-2",
+        "COLOR-3"
+      ],
+      "component": [
+        "COMP-5",
+        "COMP-1"
+      ],
+      "motion": "MOTION-2",
+      "imagery": "IMG-1",
+      "density": "DEN-1",
+      "voice": "VOICE-2",
+      "reading_pattern": [
+        "RP-3",
+        "RP-1"
+      ]
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [
+      "magazine vibes",
+      "printed-page feel",
+      "art-directed",
+      "member's-club energy"
+    ],
+    "vernacular": [
+      "asymmetric grid"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "editorial",
+      "publishing"
+    ],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

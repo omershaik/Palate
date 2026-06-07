@@ -1,0 +1,49 @@
+{
+  "id": "premium-hardware-vibes",
+  "category": "canonical",
+  "brief": "Premium and clear, confident simple, benefit-driven copy. Hardware launch feel — cinematic scrolling, atmospheric depth, generous airy spacing.",
+  "expected": {
+    "canonical": "Premium Consumer Hardware",
+    "axes": {
+      "layout": "LAYOUT-4b",
+      "typography": "TYPE-2",
+      "color": [
+        "COLOR-7",
+        "COLOR-4"
+      ],
+      "component": "COMP-6",
+      "motion": [
+        "MOTION-8",
+        "MOTION-5"
+      ],
+      "imagery": [
+        "IMG-4",
+        "IMG-5"
+      ],
+      "density": "DEN-2",
+      "voice": "VOICE-5",
+      "reading_pattern": "RP-2"
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [
+      "premium and clear",
+      "confident simple",
+      "benefit-driven",
+      "hardware launch feel",
+      "cinematic scrolling",
+      "atmospheric depth",
+      "airy spacing"
+    ],
+    "vernacular": [],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "consumer hardware"
+    ],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

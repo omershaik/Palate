@@ -1,0 +1,20 @@
+{
+  "id": "broken-hard-bordered-restrained-motion",
+  "category": "broken",
+  "brief": "Hard-bordered neo-brutalist components — thick black borders, hard-shadow buttons — paired with restrained-atmospheric motion, slow editorial fades, parallax hero imagery.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["neo-brutalist"],
+    "vernacular": ["hard-bordered", "thick black borders", "hard-shadow buttons", "restrained-atmospheric motion", "slow editorial fades", "parallax"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

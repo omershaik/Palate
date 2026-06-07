@@ -1,0 +1,20 @@
+{
+  "id": "broken-app-density-marketing-bento",
+  "category": "broken",
+  "brief": "Marketing-bento layout for an AI startup launch page, but use application-density components — tiny padding, 12px type, dashboard-style action rows in the bento cells.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["AI startup launch"],
+    "vernacular": ["marketing-bento", "application-density components", "dashboard-style action rows"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": ["AI"],
+    "functional_context": ["launch page"],
+    "audience_signals": []
+  }
+}

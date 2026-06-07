@@ -1,0 +1,53 @@
+{
+  "id": "wellness-dtc-vibes",
+  "category": "canonical",
+  "brief": "Warm and inviting, golden-hour photography, friendly voice. Sun-soaked lifestyle imagery, soft cushioned components, light and conversational copy.",
+  "expected": {
+    "canonical": "Wellness / Beauty DTC",
+    "axes": {
+      "layout": [
+        "LAYOUT-4a",
+        "LAYOUT-4b"
+      ],
+      "typography": [
+        "TYPE-1",
+        "TYPE-5"
+      ],
+      "color": [
+        "COLOR-6",
+        "COLOR-2"
+      ],
+      "component": "COMP-4",
+      "motion": "MOTION-2",
+      "imagery": "IMG-2",
+      "density": [
+        "DEN-3",
+        "DEN-2"
+      ],
+      "voice": "VOICE-6",
+      "reading_pattern": "RP-2"
+    },
+    "min_confidence": 0.7
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": [
+      "warm and inviting",
+      "golden-hour",
+      "friendly voice",
+      "sun-soaked",
+      "light and conversational"
+    ],
+    "vernacular": [
+      "lifestyle imagery"
+    ],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [
+      "wellness",
+      "beauty"
+    ],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

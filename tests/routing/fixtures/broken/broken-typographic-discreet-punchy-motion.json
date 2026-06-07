@@ -1,0 +1,20 @@
+{
+  "id": "broken-typographic-discreet-punchy-motion",
+  "category": "broken",
+  "brief": "Aman-style typographic-discreet components — no buttons, just underlined inline links — but with punchy-discrete motion: hard cuts, snap transitions, components shifting on hover.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": ["Aman"],
+    "vibes": [],
+    "vernacular": ["typographic-discreet components", "underlined inline links", "punchy-discrete motion", "hard cuts", "snap transitions"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": [],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "broken-conversion-voice-spacious-density",
+  "category": "broken",
+  "brief": "Conversion-punchy SaaS voice — \"Get started in 2 minutes\", urgent CTAs, benefit-driven hero — but with editorial-spacious density, lots of generous whitespace, slow vertical rhythm.",
+  "expected": {
+    "expected_warnings": [
+      { "severity": "warning", "code": "broken_combination_detected" }
+    ]
+  },
+  "stub_signals": {
+    "brand_exemplars": [],
+    "vibes": ["conversion-punchy SaaS voice"],
+    "vernacular": ["urgent CTAs", "benefit-driven hero", "editorial-spacious density", "generous whitespace", "vertical rhythm"],
+    "anti_vibes": [],
+    "compositional_intent": [],
+    "domain": ["SaaS"],
+    "functional_context": [],
+    "audience_signals": []
+  }
+}
