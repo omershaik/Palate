@@ -6,23 +6,22 @@ Palate exposes eight axes of design decisions (layout, typography, color, compon
 
 ## Status
 
-**Pre-release.** Spec is complete and pressure-tested across nine architectural turns; implementation is in progress. The build phase tracker lives in [`CLAUDE.md`](./CLAUDE.md).
+**Pre-release.** The TypeScript build passes. The corpus loader, card generator, MCP server, and multi stage routing pipeline are implemented. The current test run has 451 passing tests and 32 open validation failures, concentrated in canonical classification and failure mode routing.
 
 This repository ships:
 - The curated spec (in [`spec/turns/`](./spec/turns/)) — 13 markdown documents, ~80,000 words, defining 77 grammars across 8 axes plus 6 voice dimensions, 15 canonical multi-axis combinations, 22 documented broken combinations, and ~1,500 altname entries.
 - The PRD ([`docs/prd/v0.1.md`](./docs/prd/v0.1.md)) — implementation plan layered on top of the spec.
-- The corpus loader, routing engine, MCP server, and re-derivation worker — under construction across phases 1–5 (see PRD §7).
+- The corpus loader, card generator, routing engine, and MCP server.
 
 ## Getting started (for contributors)
 
-If you're picking this up to build, start with [`docs/orientation.md`](./docs/orientation.md) for the recommended reading order, then [`CLAUDE.md`](./CLAUDE.md) for the working contract this codebase operates under.
+If you are picking this up to build, start with [`docs/orientation.md`](./docs/orientation.md), then review the PRD and the validation suite.
 
 ## Repository layout
 
 ```
 palate/
 ├── README.md                    — this file
-├── CLAUDE.md                    — operating contract for Claude Code sessions
 ├── LICENSE                      — MIT
 ├── spec/
 │   ├── turns/                   — canonical spec documents (source of truth)
@@ -30,11 +29,9 @@ palate/
 ├── src/                         — MCP server source (TypeScript)
 │   ├── corpus/                  — spec loader and parser
 │   ├── routing/                 — five-stage routing pipeline (Phase 2)
-│   ├── card-generator/          — card schema population (Phase 3)
-│   ├── validation/              — coherence checking (Phase 2)
+│   ├── cards/                   — card generation and design tokens
 │   └── types/                   — shared TypeScript interfaces
 ├── tests/                       — vitest test suite
-├── tools/                       — re-derivation worker (Phase 4)
 └── docs/
     ├── orientation.md           — reading order and file index
     └── prd/v0.1.md              — implementation plan
