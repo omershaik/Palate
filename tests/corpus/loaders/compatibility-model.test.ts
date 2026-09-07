@@ -65,6 +65,15 @@ describe("loadCompatibilityModel", () => {
     expect(luxury!.brand_exemplars).toContain("Aman");
   });
 
+  it("preserves both layouts in the editorial-brand composite", () => {
+    const hybrid = model.canonical_combinations.find(c => c.id === "CANONICAL-12")!;
+    expect(hybrid.axis_mappings.layout?.grammar_id).toBe("Editorial-Grid Magazine");
+    expect(hybrid.axis_alternatives?.layout?.map(ref => ref.grammar_id)).toEqual([
+      "Editorial-Grid Magazine",
+      "Vertical-Rhythm Editorial",
+    ]);
+  });
+
   it("returns 9 reduced-motion fallbacks keyed by motion grammar id", () => {
     const ids = Object.keys(model.reduced_motion_fallbacks).sort();
     expect(ids).toEqual([

@@ -92,5 +92,8 @@ export function matchesAltname(signal: string, altname: string): boolean {
   const shorter = s.length < a.length ? s : a;
   if (shorter.length < MIN_MATCH_LENGTH) return false;
 
-  return s.includes(a) || a.includes(s);
+  // A phrase may be embedded in a longer phrase, but not in a word.
+  // Otherwise "calm" matches "calming" and "art" matches "cart",
+  // introducing evidence for unrelated grammars in either direction.
+  return ` ${s} `.includes(` ${a} `) || ` ${a} `.includes(` ${s} `);
 }

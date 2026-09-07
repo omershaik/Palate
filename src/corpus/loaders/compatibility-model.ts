@@ -301,7 +301,13 @@ function parseCanonicalContent(blocks: BlockContent[]): {
       const splitPattern = hasOxfordOr
         ? /\s+or\s+|\s*,\s*/i
         : /\s+or\s+/i;
-      const optionTexts = noParens
+      // Only layout uses '+' for section-level grammar composition.
+      // Other axes use it for cross-axis annotations, e.g. a reading
+      // pattern followed by a layout's scrolling behavior.
+      const optionsText = axis === "layout"
+        ? noParens.replace(/\s+\+\s+/g, " or ")
+        : noParens;
+      const optionTexts = optionsText
         .split(splitPattern)
         .map((s) => s.trim())
         .filter((s) => s.length > 0);
@@ -313,7 +319,12 @@ function parseCanonicalContent(blocks: BlockContent[]): {
         // retains an "or " prefix on edge inputs).
         const noOrPrefix = opt.replace(/^or\s+/i, "").trim();
         const noAnnotation = noOrPrefix.replace(/\s+with\s+.+$/i, "").trim();
-        const cleaned = noAnnotation.replace(/\.$/, "").trim();
+        // A composite layout can name a secondary grammar for sections.
+        // Keep both references; "sections" describes their use, not the name.
+        const cleaned = noAnnotation
+          .replace(/\s+sections\.?$/i, "")
+          .replace(/\.$/, "")
+          .trim();
         if (cleaned.length === 0) continue;
         grammarNames.push(cleaned);
       }

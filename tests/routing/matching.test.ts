@@ -52,6 +52,18 @@ describe("matchesAltname", () => {
     expect(matchesAltname("xyz", "abc")).toBe(false);
   });
 
+  it("does not match a phrase inside an unrelated word", () => {
+    expect(matchesAltname("art", "cart layout")).toBe(false);
+    expect(matchesAltname("cart layout", "art")).toBe(false);
+    expect(matchesAltname("linear", "nonlinear storytelling")).toBe(false);
+    expect(matchesAltname("scroll", "scrollytelling")).toBe(false);
+  });
+
+  it("still matches complete phrases within longer descriptions", () => {
+    expect(matchesAltname("editorial grid", "an editorial-grid layout")).toBe(true);
+    expect(matchesAltname("AI", "AI")).toBe(true);
+  });
+
   it("empty strings return false", () => {
     expect(matchesAltname("", "anything")).toBe(false);
     expect(matchesAltname("anything", "")).toBe(false);

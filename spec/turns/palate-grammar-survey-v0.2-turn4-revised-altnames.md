@@ -369,7 +369,7 @@ I also did not invent brand exemplars beyond what canonical examples justify. If
 
 ## MOTION-1. Stillness as Discipline
 
-- **Vibes:** *no animation* — *still* — *quiet luxury motion* — *unhurried* — *the page doesn't move*
+- **Vibes:** *no animation* — *still* — *stillness* — *quiet luxury motion* — *unhurried* — *the page doesn't move*
 - **Brand exemplars:** *like Aman's site* — *like Cheval Blanc* — *like Hermès editorial* — *gallery and museum sites*
 - **Vernacular labels:** *no motion* — *static* — *stillness* — *no animations* — *no scroll triggers*
 - **Anti-vibes:** *no fade-ins* — *no parallax* — *no spring animations* — *no scroll-jacking*
